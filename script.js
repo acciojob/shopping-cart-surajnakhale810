@@ -19,7 +19,7 @@ function grandTotal() {
             sum = sum + pricearr[i];
         }
 
-        total.innerText = "Grandtotal :" + sum
+        total.innerText =  sum
         itemInput.value = ""
         priceInput.value = "" 
     }
